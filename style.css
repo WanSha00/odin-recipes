@@ -1,0 +1,59 @@
+body {
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    background-color: #D7E9F7;
+    color: hsl(0, 0%, 10%);
+    line-height: 1.5;
+}
+
+h1 {
+    background-color: #f3aa3c;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+h2,
+h3 {
+    
+    color: white;
+    text-align: center;
+    
+}
+
+h2{
+    background-color: #9c9272;
+    font-size: 2rem;
+  font-weight: 200;
+}
+
+h3{
+    background-color: #b4a984;
+    font-size: 1.75rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+p,
+li {
+    background-color: #FDFCE5;
+}
+
+p{
+    font-size: 1.125rem;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-width {
+    max-width: 100ch;
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+  }
+  
